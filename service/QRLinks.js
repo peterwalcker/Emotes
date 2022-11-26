@@ -18,6 +18,8 @@ for (let i = 0; i < imgs.length; i++){
 	imgs[i].addEventListener('click', () => {changeQR();}, false);
 }
 
+document.getElementsByClassName("qr")[0].click();
+
 function changeQR() {
     let QR = document.getElementsByClassName("qr");
     for (let i = 0; i < QR.length; i++) {
